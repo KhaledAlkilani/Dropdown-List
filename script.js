@@ -23,6 +23,7 @@ dropdowns.forEach(dropdown => {
             select.classList.remove('select-clicked')
             caret.classList.remove('caret-rotate')
             menu.classList.remove('menu-open')
+            //To remove the styling from previous selected option and add the styling to the new selected option
             options.forEach(option => {
                 option.classList.remove('active');
             })
